@@ -19,7 +19,7 @@ module NetSuite
         :to_be_printed, :total_cost_estimate, :tran_date, :tran_id, :tran_is_vsoe_bundle, :vat_reg_num,
         :linked_tracking_numbers, :vsoe_auto_calc, :quantity, :bill_city, :bill_state, :ship_city, :ship_state, :cost_estimate,
         :amount, :is_ship_address, :auth_code, :pn_ref_num, :is_multi_ship_to, :cc_number, :cc_expire_date, :cc_name, :cc_street,
-	:cc_zip_code, :cc_security_code, :get_auth
+	:cc_zip_code, :cc_security_code, :get_auth, :ship_address, :bill_address
 
       # NOTE API >= 2014_2 only
       field :shipping_address, Address
